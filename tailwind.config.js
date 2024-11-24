@@ -21,6 +21,7 @@ export default {
                 myGreen: "#139259",
                 linkedin: "#004182",
                 gmail: "#D14836",
+                leetCode: "#FFA116",
             },
         },
     },

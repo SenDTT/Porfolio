@@ -1,0 +1,15 @@
+function LeetCodeLogo() {
+    return (
+        <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+            <rect width="17.0455" height="20" fill="url(#pattern0_1_12)" />
+            <defs>
+                <pattern id="pattern0_1_12" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlinkHref="#image0_1_12" transform="scale(0.0133333 0.0113636)" />
+                </pattern>
+                <image id="image0_1_12" width="75" height="88" xlinkHref="data:image/png;base64,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" />
+            </defs>
+        </svg>
+    );
+}
+
+export default LeetCodeLogo;
