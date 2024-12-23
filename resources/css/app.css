@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .bg-myBG {
-    background: linear-gradient(135deg, #324f65, #e6ecf0);
+    background: linear-gradient(135deg, #63ade7, #e6ecf0);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
