@@ -12,3 +12,21 @@
 body {
     @apply font-mono;
 }
+
+#experience-section {
+    @apply font-mono;
+    display: flex;
+    width: 100%;
+    padding: 2rem 5rem;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+
+    .MuiList-root span {
+        @apply font-mono text-sm;
+    }
+
+    .MuiTab-root {
+        @apply font-mono;
+    }
+}

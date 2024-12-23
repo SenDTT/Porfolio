@@ -1,4 +1,5 @@
 import About from "@/Components/About";
+import Experience from "@/Components/Experience";
 import { PageProps } from "@/types";
 import { Head, Link } from "@inertiajs/react";
 
@@ -51,8 +52,9 @@ export default function Welcome({
                             </nav>
                         </header> */}
 
-                        <main className="mt-6">
+                        <main className="mt-6 flex flex-col items-center gap-4">
                             <About />
+                            <Experience />
                         </main>
 
                         {/* <footer className="py-16 text-center text-sm text-black dark:text-white/70">

@@ -22,7 +22,7 @@ export default function About() {
                         <img src={Avatar} alt="avatar" className="w-40 rounded-full border-4 border-yellow-600" />
                     </div>
                     <div className="text-center font-light text-sm flex gap-1 justify-center items-center leading-8">
-                        <FaLocationDot className="size-4" /> <p>Iowa, United States</p>
+                        <FaLocationDot className="size-4" /> <p className="text-xs">Iowa, United States</p>
                     </div>
                 </div>
 
