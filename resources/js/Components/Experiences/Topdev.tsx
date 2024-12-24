@@ -14,7 +14,7 @@ export default function TOPDev() {
             Developed a web platform to connect job seekers with businesses in the IT sector.
         </div>
         <div className='pt-3 text-sm'>
-            Responsibilites:
+            Responsibilities:
         </div>
         <List
             sx={{

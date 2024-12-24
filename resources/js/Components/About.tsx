@@ -19,7 +19,7 @@ export default function About() {
             <div className="flex justify-center items-start gap-4">
                 <div className="flex flex-col justify-start items-center gap-1">
                     <div className="rounded-full">
-                        <img src={Avatar} alt="avatar" className="w-40 rounded-full border-4 border-yellow-600" />
+                        <img src={Avatar} alt="avatar" className="w-40 rounded-full border-4 border-gray-100" />
                     </div>
                     <div className="text-center font-light text-sm flex gap-1 justify-center items-center leading-8">
                         <FaLocationDot className="size-4" /> <p className="text-xs">Iowa, United States</p>

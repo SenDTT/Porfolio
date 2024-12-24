@@ -61,8 +61,8 @@ export default function ExperiencesWithTabs() {
                     width: '190px',
                     borderRight: 1,
                     borderColor: 'divider',
-                    '& span.MuiTabs-indicator': { bgcolor: '#ca8a04' },
-                    '& button.Mui-selected': { color: '#ca8a04' },
+                    '& span.MuiTabs-indicator': { bgcolor: '#9a3412' },
+                    '& button.Mui-selected': { color: '#9a3412' },
                     '& button': { textTransform: 'initial', fontWeight: 'bold' }
                 }}
             >

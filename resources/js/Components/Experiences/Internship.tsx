@@ -11,7 +11,7 @@ export default function Internship() {
             Sep - Dec 2018 at <a className="text-orange-800 font-medium" href="https://ceres.com.vn/" target="_blank">Ceres Solutions</a>
         </div>
         <div className='pt-3 text-sm'>
-            Responsibilites:
+            Responsibilities:
         </div>
         <List
             sx={{
