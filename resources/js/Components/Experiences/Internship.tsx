@@ -30,5 +30,10 @@ export default function Internship() {
                     <ListItemText primary={`${item}`} />
                 </ListItem>
             ))}
-        </List></>);
+        </List>
+
+        <div className="font-light text-sm mt-4">
+            <span className="font-semibold">Technologies Used:</span> PHP (Yii framework), MySQL, HTML, CSS, Javascript, jQuery.
+        </div>
+    </>);
 }

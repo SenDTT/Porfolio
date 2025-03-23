@@ -1,6 +1,6 @@
 import { Timeline, TimelineConnector, TimelineContent, TimelineDot, TimelineItem, TimelineOppositeContent, timelineOppositeContentClasses, TimelineSeparator } from "@mui/lab";
 import { List, ListItem, ListItemIcon, ListItemText, ListSubheader, Typography } from "@mui/material";
-import { experiences } from "../../../storage/app/public/sources";
+import { experiences } from "../../../../storage/app/public/sources";
 import { FaDotCircle } from "react-icons/fa";
 
 export default function ExperiencesWithTimeline() {

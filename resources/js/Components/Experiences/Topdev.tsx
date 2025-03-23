@@ -8,7 +8,7 @@ export default function TOPDev() {
             <a className="hover:text-orange-800" target="_blank" href="https://topdev.vn/">TOPDEV BY APPLANCER JSC</a>
         </div>
         <div className='font-light text-xs'>
-            Jan 2019 - October 2023
+            Jan 2019 - Oct 2023
         </div>
         <div className='pt-3 text-sm'>
             Developed a web platform to connect job seekers with businesses in the IT sector.
@@ -33,5 +33,10 @@ export default function TOPDev() {
                     <ListItemText primary={`${item}`} />
                 </ListItem>
             ))}
-        </List></>);
+        </List>
+
+        <div className="font-light text-sm mt-4">
+            <span className="font-semibold">Technologies Used:</span> PHP, PHPUnit, JavaScript, TypeScript, MySQL, Laravel, Vue.js, ReactJS, jQuery, Next JS, Tailwind CSS, Material UI, ElasticSearch, Modular Architecture, Laravel/Breeze
+        </div>
+    </>);
 }

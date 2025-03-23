@@ -5,7 +5,7 @@ export default function Experience() {
     return (<div id="experience-section" className="text-gray-900">
         <Divider>
             <Typography variant='h6' component='h6' align='center'>
-                <span className='font-mono'>Experiences</span>
+                <span className='font-mono font-semibold'>Experiences</span>
             </Typography>
         </Divider>
 

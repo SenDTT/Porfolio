@@ -1,10 +1,10 @@
 import { Box, Tab, Tabs, Typography } from "@mui/material";
 import React from "react";
-import TOPDev from "./Experiences/Topdev";
-import ToolE from "./Experiences/ToolE";
-import AmazonIntegrationPlus from "./Experiences/AmazonIntegrationPlus";
-import Internship from "./Experiences/Internship";
-import MiStable from "./Experiences/miStable";
+import TOPDev from "../Experiences/Topdev";
+import ToolE from "../Experiences/ToolE";
+import AmazonIntegrationPlus from "../Experiences/AmazonIntegrationPlus";
+import Internship from "../Experiences/Internship";
+import MiStable from "../Experiences/miStable";
 
 interface TabPanelProps {
     children?: React.ReactNode;
@@ -48,7 +48,7 @@ export default function ExperiencesWithTabs() {
     };
     return (
         <Box
-            sx={{ flexGrow: 1, display: 'flex', justifyContent: 'center' }}
+            sx={{ flexGrow: 1, display: 'flex', justifyContent: 'center', minHeight: '500px' }}
         >
             <Tabs
                 orientation="vertical"

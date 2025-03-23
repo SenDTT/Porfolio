@@ -30,5 +30,10 @@ export default function AmazonIntegrationPlus() {
                     <ListItemText primary={`${item}`} />
                 </ListItem>
             ))}
-        </List></>);
+        </List>
+
+        <div className="font-light text-sm mt-4">
+            <span className="font-semibold">Technologies Used:</span> PHP, Laravel, Shopify Application, Slim, HTML, CSS, JavaScript, TypeScript, MySQL, jQuery, Tailwind CSS
+        </div>
+    </>);
 }

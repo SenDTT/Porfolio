@@ -17,7 +17,7 @@ body {
     @apply font-mono;
     display: flex;
     width: 100%;
-    padding: 2rem 5rem;
+    padding: 0 5rem;
     flex-direction: column;
     justify-content: center;
     gap: 1rem;

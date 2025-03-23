@@ -1,9 +1,9 @@
-import Avatar from "../../../storage/app/public/avatar.jpg";
+import Avatar from "../../../../storage/app/public/avatar.jpg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { HiOutlineMail } from "react-icons/hi";
 import { GiHand } from "react-icons/gi";
-import LeetCodeLogo from "./Icons/LeetCodeIcon";
+import LeetCodeLogo from "../Icons/LeetCodeIcon";
 import { Tooltip } from "react-tooltip";
 
 const profileLinks = [
@@ -15,22 +15,22 @@ const profileLinks = [
 
 export default function About() {
     return (
-        <div id="about" className="text-black w-3/5 mx-auto flex flex-col justify-center gap-2 font-mono text-left">
+        <div id="about" className="text-black w-3/5 mx-auto flex flex-col justify-center gap-2 font-mono text-left mb-5">
             <div className="flex justify-center items-start gap-4">
                 <div className="flex flex-col justify-start items-center gap-1">
                     <div className="rounded-full">
-                        <img src={Avatar} alt="avatar" className="w-40 rounded-full border-4 border-gray-100" />
+                        <img src={Avatar} alt="avatar" className="w-32 rounded-full border border-gray-100" />
                     </div>
-                    <div className="text-center font-light text-sm flex gap-1 justify-center items-center leading-8">
-                        <FaLocationDot className="size-4" /> <p className="text-xs">Iowa, United States</p>
+                    <div className="text-center font-light text-sm flex gap-1 justify-center items-end leading-8">
+                        <FaLocationDot className="size-4" /> <p className="text-xs">Dallas, Texas, United States</p>
                     </div>
                 </div>
 
-                <div className="">
-                    <p className="flex flex-row justify-start items-center gap-2">
-                        <GiHand className="size-6 text-yellow-400 inline" />Hi, my name is
+                <div className="flex flex-col gap-1">
+                    <p className="flex flex-row justify-start items-center gap-3">
+                        <GiHand className="size-6 text-yellow-500 inline" />Hi, my name is
                     </p>
-                    <p className="text-2xl font-bold text-gray-800 leading-[3rem]">Thi Thanh Sen Doan <span className="font-light">/ Sen</span></p>
+                    <p className="text-2xl font-bold text-gray-800 leading-[3rem]">Sen Doan</p>
                     <p>
                         I'm a Full Stack Developer.
                     </p>

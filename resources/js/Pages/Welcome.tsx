@@ -1,7 +1,9 @@
 import About from "@/Components/About";
-import Experience from "@/Components/Experience";
+import Experience from "@/Components/About/Experience";
+import Introduce from "@/Components/About/Introduce";
+import TechnicalSkill from "@/Components/About/TechnicalSkills";
 import { PageProps } from "@/types";
-import { Head, Link } from "@inertiajs/react";
+import { Head } from "@inertiajs/react";
 
 const navigations = [
     { to: '#about', name: 'About' },
@@ -28,7 +30,7 @@ export default function Welcome({
     return (
         <>
             <Head title="Welcome" />
-            <div className="bg-myBG text-black/50 dark:bg-black dark:text-white/50">
+            <div className="bg-slate-300 text-white dark:bg-black dark:text-white/50 py-10">
                 <div className="relative flex min-h-screen flex-col items-center justify-center selection:text-white">
                     <div className="relative w-full max-w-2xl px-6 lg:max-w-7xl">
                         {/* <header className="grid grid-cols-2 items-center gap-2 py-10 lg:grid-cols-2">
@@ -52,8 +54,10 @@ export default function Welcome({
                             </nav>
                         </header> */}
 
-                        <main className="mt-6 flex flex-col items-center gap-4">
+                        <main className="mt-6 flex flex-col items-center gap-8">
                             <About />
+                            <Introduce />
+                            <TechnicalSkill />
                             <Experience />
                         </main>
 
